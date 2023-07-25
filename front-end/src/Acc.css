@@ -1,0 +1,71 @@
+/* AccountPage.css */
+.account-page-container {
+    margin-top: 500px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .user-info {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  /* Styling for the orders and sells lists */
+  .orders,
+  .sells {
+    margin-bottom: 30px;
+  }
+  
+  .orders h2,
+  .sells h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Add some spacing between the list items */
+  .orders li,
+  .sells li {
+    margin-bottom: 5px;
+  }
+  
+  /* Add a nice background color and padding to the list items on hover */
+  .orders li:hover,
+  .sells li:hover {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
